@@ -1,0 +1,179 @@
+.main-menu-hud {
+    width: 18.9375rem;
+    height: 17rem;
+    border-radius: 1.125rem;
+    position: absolute;
+    background: #010103;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // .fake-bg {
+    //     width: 18.9375rem;
+    //     height: 13.625rem;
+    //     border-radius: 1.125rem;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    // }
+
+    .title-hud-setting {
+        color: #DC143C;
+        font-family: "Oswald";
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: 0.5rem;
+        left: 1.27rem;
+        position: absolute;
+    }
+
+    .check-minimap-in-car {
+        position: absolute;
+        top: 5.31rem;
+        left: 1.25rem;
+    }
+
+
+    .check-hide-minimap-in-car {
+        position: absolute;
+        top: 7.25rem;
+        left: 1.25rem;
+    }
+
+    .check-cinematic-mod {
+        position: absolute;
+        top: 9.25rem;
+        left: 1.25rem;
+    }
+
+    .title-minimap-in-car {
+        color: #FFF;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: absolute;
+        left: 3.1rem;
+        top: 5.31rem;
+    }
+
+    .title-hide-minimap-in-car {
+        color: #FFF;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: absolute;
+        left: 3.1rem;
+        top: 7.25rem;
+    }
+
+    .title-cinematic-mod {
+        color: #FFF;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: absolute;
+        left: 3.1rem;
+        top: 9.35rem;
+    }
+
+    .line-menu {
+        width: 13.3125rem;
+        height: 0.125rem;
+        background: linear-gradient(90deg, rgba(255, 215, 153, 0.00) 0%, #DC143C 50%, rgba(255, 215, 153, 0.00) 100%);
+        position: absolute;
+        top: 2.63rem;
+        left: 1.31rem;
+    }
+
+    .option-menu {
+        color: #FFF;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        top: 3.31rem;
+        left: 1.25rem;
+    }
+
+    .btn-reset-hud {
+        width: 9.4375rem;
+        height: 1.625rem;
+        border-radius: 0.375rem;
+        background: #DC143C;
+        position: absolute;
+        top: 13.7rem;
+        left: 4.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        &:hover {
+            background: #DC143C5d;
+        }
+    }
+
+    .btn-custom-hud {
+        width: 9.4375rem;
+        height: 1.625rem;
+        border-radius: 0.375rem;
+        background: #DC143C;
+        position: absolute;
+        top: 11.56rem;
+        left: 4.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        &:hover {
+            background: #DC143C5d;
+        }
+    }
+
+    .btn-close {
+        width: 1.625rem;
+        height: 1.625rem;
+        border-radius: 0.375rem;
+        background: #DC143C;
+        position: absolute;
+        top: 0.56rem;
+        right: 0.56rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-family: "Oswald";
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        &:hover {
+            background: #DC143C5d;
+        }
+    }
+}

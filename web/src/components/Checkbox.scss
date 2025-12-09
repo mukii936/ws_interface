@@ -1,0 +1,41 @@
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .checkmark {
+    width: 1.4375rem;
+    height: 1.4375rem;
+    border-radius: 0.25rem;
+    border: 0.063rem solid #DC143C;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+
+    .fa-check {
+      display: none;
+      font-size: 1.125rem;
+    }
+  }
+
+  input:checked ~ .checkmark {
+    background-color: #DC143C;
+    border: 0.063rem solid transparent;
+    color: #010103 !important;
+    .fa-check {
+      display: block;
+    }
+  }
+
+  label {
+    margin-left: 0.5rem; 
+  }
+}
