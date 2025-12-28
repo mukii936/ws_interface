@@ -242,12 +242,12 @@ const Hud: React.FC = React.memo(() => {
                             }
                         </div>
                     </DraggableHudItem>
-                    <DraggableHudItem id="infohud" defaultX={108} defaultY={53} editMode={editMode.editMode}>
+                    <DraggableHudItem id="infohud" defaultX={92} defaultY={0.125} editMode={editMode.editMode}>
                         <InfoHud />
                     </DraggableHudItem>
                     {(editMode.editMode || carData.show) && (
                         <>
-                            <DraggableHudItem id="hud_car" defaultX={108} defaultY={53} editMode={editMode.editMode}>
+                            <DraggableHudItem id="hud_car" defaultX={104} defaultY={53} editMode={editMode.editMode}>
                                 <HudCar />
                             </DraggableHudItem>
                         </>

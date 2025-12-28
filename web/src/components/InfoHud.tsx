@@ -22,7 +22,7 @@ const InfoHud: React.FC = React.memo(() => {
                     <path d="M30 0L16.8 1.15398e-06L30 12L30 0Z" fill="#DC143C" fill-opacity="0.2" />
                     <path d="M9.75039 9.60001C9.39235 9.60001 9.04897 9.74224 8.7958 9.99541C8.54262 10.2486 8.40039 10.592 8.40039 10.95V17.25C8.40039 17.608 8.54262 17.9514 8.7958 18.2046C9.04897 18.4578 9.39235 18.6 9.75039 18.6H19.6504C20.0084 18.6 20.3518 18.4578 20.605 18.2046C20.8582 17.9514 21.0004 17.608 21.0004 17.25V10.95C21.0004 10.592 20.8582 10.2486 20.605 9.99541C20.3518 9.74224 20.0084 9.60001 19.6504 9.60001H9.75039ZM12.0004 10.5V11.4C12.0004 11.8774 11.8107 12.3352 11.4732 12.6728C11.1356 13.0104 10.6778 13.2 10.2004 13.2H9.30039V12.3H10.2004C10.4391 12.3 10.668 12.2052 10.8368 12.0364C11.0056 11.8676 11.1004 11.6387 11.1004 11.4V10.5H12.0004ZM14.7004 15.675C14.2827 15.675 13.8821 15.5091 13.5867 15.2137C13.2913 14.9183 13.1254 14.5177 13.1254 14.1C13.1254 13.6823 13.2913 13.2817 13.5867 12.9863C13.8821 12.6909 14.2827 12.525 14.7004 12.525C15.1181 12.525 15.5187 12.6909 15.8141 12.9863C16.1095 13.2817 16.2754 13.6823 16.2754 14.1C16.2754 14.5177 16.1095 14.9183 15.8141 15.2137C15.5187 15.5091 15.1181 15.675 14.7004 15.675ZM9.30039 15.9V15H10.2004C10.6778 15 11.1356 15.1896 11.4732 15.5272C11.8107 15.8648 12.0004 16.3226 12.0004 16.8V17.7H11.1004V16.8C11.1004 16.5613 11.0056 16.3324 10.8368 16.1636C10.668 15.9948 10.4391 15.9 10.2004 15.9H9.30039ZM19.2004 15.9C18.9617 15.9 18.7328 15.9948 18.564 16.1636C18.3952 16.3324 18.3004 16.5613 18.3004 16.8V17.7H17.4004V16.8C17.4004 16.3226 17.59 15.8648 17.9276 15.5272C18.2652 15.1896 18.723 15 19.2004 15H20.1004V15.9H19.2004ZM19.2004 12.3H20.1004V13.2H19.2004C18.723 13.2 18.2652 13.0104 17.9276 12.6728C17.59 12.3352 17.4004 11.8774 17.4004 11.4V10.5H18.3004V11.4C18.3004 11.6387 18.3952 11.8676 18.564 12.0364C18.7328 12.2052 18.9617 12.3 19.2004 12.3ZM21.9004 17.25C21.9004 17.8467 21.6633 18.419 21.2414 18.841C20.8194 19.263 20.2471 19.5 19.6504 19.5H10.2769C10.37 19.7633 10.5425 19.9913 10.7705 20.1525C10.9986 20.3137 11.2711 20.4002 11.5504 20.4H19.6504C20.4858 20.4 21.287 20.0681 21.8778 19.4774C22.4685 18.8867 22.8004 18.0854 22.8004 17.25V12.75C22.8005 12.4707 22.7141 12.1982 22.5529 11.9702C22.3917 11.7421 22.1637 11.5696 21.9004 11.4765V17.25Z" fill="white" />
                 </svg>
-                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[2.25rem] top-[3.44rem]">
+                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[2.25rem] top-[3.44rem]">
                     <div className="text-white text-[0.5rem] font-medium italic absolute top-[0.1rem] right-[0.37rem]">CASH</div>
                     <div className="text-white text-right text-[0.975rem] font-medium mr-[0.3rem] mt-[0.5rem] ml-7">{updateMoney.cash}</div>
                     <div className="w-[0.0625rem] h-[1.875rem] bg-[#DC143C] absolute right-0 top-0"></div>
@@ -41,7 +41,7 @@ const InfoHud: React.FC = React.memo(() => {
                         <path d="M24.4395 6.72015H7.15967V23.9999H24.4395V6.72015Z" fill="white" />
                     </g>
                 </svg>
-                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[2.25rem] top-[5.5rem]">
+                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[2.25rem] top-[5.5rem]">
                     <div className="text-white text-[0.5rem] font-medium italic absolute top-[0.1rem] right-[0.37rem]">BANK</div>
                     <div className="text-white text-right text-[0.975rem] font-medium mr-[0.3rem] mt-[0.5rem] ml-7">{updateMoney.bank}</div>
                     <div className="w-[0.0625rem] h-[1.875rem] bg-[#DC143C] absolute right-0 top-0"></div>
@@ -56,7 +56,7 @@ const InfoHud: React.FC = React.memo(() => {
                     <path d="M18.5329 10.6C18.5329 9.16406 17.3689 8 15.9329 8H14.1996C12.7637 8 11.5996 9.16406 11.5996 10.6" stroke="white" stroke-width="1.57895" stroke-linecap="round" />
                     <path d="M9 16.3083C9 15.2365 9 14.7006 9.17025 14.2762C9.41097 13.6761 9.88657 13.2005 10.4867 12.9598C10.9111 12.7895 11.447 12.7895 12.5188 12.7895H17.797C18.8688 12.7895 19.4047 12.7895 19.8291 12.9598C20.4292 13.2005 20.9048 13.6761 21.1455 14.2762C21.3158 14.7006 21.3158 15.2365 21.3158 16.3083C21.3158 17.7374 21.3158 18.4519 21.0888 19.0178C20.7678 19.818 20.1337 20.4521 19.3336 20.773C18.7676 21.0001 18.0531 21.0001 16.6241 21.0001H13.6917C12.2627 21.0001 11.5481 21.0001 10.9822 20.773C10.1821 20.4521 9.54796 19.818 9.22701 19.0178C9 18.4519 9 17.7374 9 16.3083Z" fill="white" stroke="white" stroke-width="1.57895" />
                 </svg>
-                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[2.25rem] top-[7.56rem]">
+                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[2.25rem] top-[7.56rem]">
                     <div className="text-white text-[0.5rem] font-medium italic absolute top-[0.1rem] right-[0.37rem]">{updateJobOne.label}</div>
                     <div className="text-white text-right text-[0.975rem] font-medium mr-[0.3rem] mt-[0.5rem] ml-7">{updateJobOne.grade}</div>
                     <div className="w-[0.0625rem] h-[1.875rem] bg-[#DC143C] absolute right-0 top-0"></div>
@@ -69,7 +69,7 @@ const InfoHud: React.FC = React.memo(() => {
                     <path d="M0 30L8 30L-6.11959e-07 23L0 30Z" fill="#DC143C" fill-opacity="0.2" />
                     <path d="M30.2002 0L17.0002 1.15398e-06L30.2002 12L30.2002 0Z" fill="#DC143C" fill-opacity="0.2" />
                 </svg>
-                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[2.25rem] top-[9.62rem]">
+                <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[2.25rem] top-[9.62rem]">
                     <div className="text-white text-[0.5rem] font-medium italic absolute top-[0.1rem] right-[0.37rem]">{updateJobTwo.label}</div>
                     <div className="text-white text-right text-[0.975rem] font-medium mr-[0.3rem] mt-[0.5rem] ml-7">{updateJobTwo.grade}</div>
                     <div className="w-[0.0625rem] h-[1.875rem] bg-[#DC143C] absolute right-0 top-0"></div>
@@ -104,7 +104,7 @@ const InfoHud: React.FC = React.memo(() => {
                         </clipPath>
                     </defs>
                 </svg> */}
-                {/* <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[2.25rem] top-[11.69rem]">
+                {/* <div className="min-w-[7.5rem] h-[1.875rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[2.25rem] top-[11.69rem]">
                     <div className="text-white text-[0.5rem] font-medium italic absolute top-[0.1rem] right-[0.37rem]">{updateWeapon.weaponName}</div>
                     <div className="text-white text-right text-[0.975rem] font-medium mr-[0.3rem] mt-[0.5rem] ml-7"><span className="text-white text-right text-[0.975rem] font-medium">{updateWeapon.clipAmmoCount}</span>/{updateWeapon.ammoCount}</div>
                     <div className="w-[0.0625rem] h-[1.875rem] bg-[#DC143C] absolute right-0 top-0"></div>
@@ -127,8 +127,8 @@ const InfoHud: React.FC = React.memo(() => {
                     <path d="M9.75 9V10.65ZM15.25 9V10.65Z" fill="white" />
                     <path d="M9.75 9V10.65M15.25 9V10.65" stroke="white" stroke-width="1.5" stroke-linecap="round" />
                 </svg>
-                <div className="w-[4.3125rem] h-[1.5625rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[1.9rem] top-[0.88rem] flex items-center justify-end text-white text-[0.9375rem] not-italic font-medium pr-2"># <span className="text-white font-[Saira] text-[0.9375rem] not-italic font-medium">{statusData.playerid}</span> <div className="w-[0.0625rem] h-[1.5625rem] bg-[#DC143C] absolute right-0"></div></div>
-                <div className="w-[4.3125rem] h-[1.5625rem] bg-[linear-gradient(90deg,_rgba(77,_32,_13,_0.00)_0%,_rgba(77,_32,_13,_0.45)_100%)] absolute right-[7rem] top-[0.88rem]">
+                <div className="w-[4.3125rem] h-[1.5625rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[1.9rem] top-[0.88rem] flex items-center justify-end text-white text-[0.9375rem] not-italic font-medium pr-2"># <span className="text-white font-[Saira] text-[0.9375rem] not-italic font-medium">{statusData.playerid}</span> <div className="w-[0.0625rem] h-[1.5625rem] bg-[#DC143C] absolute right-0"></div></div>
+                <div className="w-[4.3125rem] h-[1.5625rem] bg-[linear-gradient(90deg,_rgba(121,_1,_1,_0.00)_0%,_rgba(121,_1,_1,_0.45)_100%)] absolute right-[7rem] top-[0.88rem]">
                     <div className="text-white text-[0.625rem] font-medium absolute top-[-0.12rem] right-[0.4rem]">{date}</div>
                     <div className="text-white text-[0.8125rem] font-medium absolute bottom-[-0.2rem] right-[0.4rem]">{time}</div>
                     <div className="w-[0.0625rem] h-[1.5625rem] bg-[#DC143C] absolute right-0 top-0"></div>

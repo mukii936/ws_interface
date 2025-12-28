@@ -95,7 +95,7 @@ const Notify: React.FC = React.memo(() => {
 
     return (
         <>
-            <DraggableHudItem id="notify" defaultX={114} defaultY={15} editMode={editMode.editMode}>
+            <DraggableHudItem id="notify" defaultX={98} defaultY={15} editMode={editMode.editMode}>
                 <div className="w-[20.25rem] h-full space-y-5" onContextMenu={handleRightClick}>
                     {displayNotifications.map((notify) => (
                         <div
