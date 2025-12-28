@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import HudStatus from "../components/HudStatus";
-// import InfoHud from "../components/InfoHud";
+import InfoHud from "../components/InfoHud";
 // import KeyBinds from "../components/KeyBinds";
 import HudMenu from "../components/MenuHud";
 import HudCar from "../components/HudCar";
@@ -26,7 +26,7 @@ debugData([
             thirst: 60,
             stress: 10,
             oxygen: 30,
-            idPlayer: 23,
+            playerid: 23,
         }
     },
     {
@@ -74,7 +74,7 @@ debugData([
     {
         event: 'editMode',
         data: {
-            editMode: false,
+            editMode: true  ,
         }
     }
 ]);
@@ -242,6 +242,9 @@ const Hud: React.FC = React.memo(() => {
                             }
                         </div>
                     </DraggableHudItem>
+                    <DraggableHudItem id="infohud" defaultX={108} defaultY={53} editMode={editMode.editMode}>
+                        <InfoHud />
+                    </DraggableHudItem>
                     {(editMode.editMode || carData.show) && (
                         <>
                             <DraggableHudItem id="hud_car" defaultX={108} defaultY={53} editMode={editMode.editMode}>
@@ -251,7 +254,7 @@ const Hud: React.FC = React.memo(() => {
                     )}
                 </>
             )}
-            <HudMenu/>
+            <HudMenu />
         </>
     );
 });

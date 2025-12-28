@@ -522,7 +522,7 @@ local function updatePlayerHud(data)
                 cinematic = data[29],
                 dev = data[30],
                 radioActive = data[31],
-                idPlayer = GetPlayerServerId(PlayerId()),
+                playerid = GetPlayerServerId(PlayerId()),
                 voicelv = voice
             }
         })
